@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Segurança-Chilengue</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-shield-alt"></i> Segurança-Chilengue</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html" class="active btn-contacto">Contacto</a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner da Página -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>Contacte-nos</h2>
+            <p>Estamos prontos para atender às suas necessidades de segurança</p>
+        </div>
+    </section>
+
+    <!-- Informações de Contacto -->
+    <section class="contacto-info">
+        <div class="container">
+            <div class="contacto-grid">
+                <div class="contacto-card">
+                    <div class="contacto-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Telefone</h3>
+                    <p>+258-844090810</p>
+                    <p>+258 877973231</p>
+                </div>
+                
+                <div class="contacto-card">
+                    <div class="contacto-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Endereço</h3>
+                    <p>Matola-Gara</p>
+                    <p>Maputo, Moçambique</p>
+                </div>
+                
+                <div class="contacto-card">
+                    <div class="contacto-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-mail</h3>
+                    <p>edvichilengue@gmail.co.mz</p>
+                    <p>comercial@Segurança-Chilengue.co.mz</p>
+                </div>
+                
+                <div class="contacto-card">
+                    <div class="contacto-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horário de Atendimento</h3>
+                    <p>Segunda a Sexta: 8h às 17h</p>
+                    <p>Sábado: 8h às 12h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contacto -->
+    <section class="contacto-form">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2 class="section-title">Envie-nos uma Mensagem</h2>
+                    <p>Preencha o formulário abaixo e entraremos em contacto o mais breve possível</p>
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="" disabled selected>Selecione o assunto</option>
+                            <option value="orcamento">Solicitar Orçamento</option>
+                            <option value="informacoes">Informações sobre Serviços</option>
+                            <option value="suporte">Suporte Técnico</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group form-check">
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos">Concordo com os termos de privacidade</label>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa">
+        <div class="container">
+            <h2 class="section-title">Nossa Localização</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14346.464713282301!2d32.57872217871094!3d-25.92099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee69a8c0e1b4e2d%3A0x5727e6e59b6a3da2!2sMatola%20Gare!5e0!3m2!1spt-PT!2smz!4v1650000000000!5m2!1spt-PT!2smz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo leva para instalar um sistema de segurança?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo de instalação varia de acordo com a complexidade do sistema e o tamanho do local. Em média, uma instalação residencial pode levar de 1 a 2 dias, enquanto instalações comerciais podem levar de 3 a 5 dias.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês oferecem manutenção para sistemas já instalados?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos serviços de manutenção preventiva e corretiva para sistemas de segurança, mesmo que não tenham sido instalados pela nossa empresa. Entre em contacto para agendar uma avaliação técnica.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>É possível monitorar as câmeras pelo celular?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, todos os nossos sistemas de videovigilância incluem acesso remoto através de aplicativos móveis, permitindo que você monitore suas câmeras de qualquer lugar, a qualquer momento, desde que tenha conexão com a internet.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês atendem em todo o país?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Atualmente, atendemos principalmente na região de Maputo e Matola. Para outras regiões, avaliamos caso a caso, dependendo da dimensão do projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-shield-alt"></i> Segurança-Chilengue</h3>
+                    <p>Soluções completas em segurança</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-servicos">
+                    <h4>Nossos Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html#videovigilancia">Videovigilância</a></li>
+                        <li><a href="servicos.html#controlo-acesso">Controlo de Acesso</a></li>
+                        <li><a href="servicos.html#alarmes">Alarmes</a></li>
+                        <li><a href="servicos.html#seguranca-privada">Segurança Privada</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contacto">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 844090810</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Matola-Gara</li>
+                        <li><i class="fas fa-envelope"></i> edvichilengue@gmail.co.mz</li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Segurança Chilengue. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
